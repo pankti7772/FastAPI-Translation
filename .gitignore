@@ -1,0 +1,23 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python Bytecode
+__pycache__/
+*.py[cod]
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
+
+# Local configuration
+.env
+.DS_Store
+
+# Pytest
+.pytest_cache/
+
+# Docker
+hf_cache/

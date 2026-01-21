@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  translation-api:
+    build: .
+    container_name: translation-api-container
+    ports:
+      - "8000:8000"
+    volumes:
+      # Optional: Persist huggingface cache to avoid redownloading models every rebuild
+      - ./hf_cache:/root/.cache/huggingface
+    environment:
+      - TRANSFORMERS_CACHE=/root/.cache/huggingface
