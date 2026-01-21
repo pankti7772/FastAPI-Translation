@@ -2,8 +2,6 @@
 
 A robust FastAPI microservice that translates English text to French using the `Helsinki-NLP/opus-mt-en-fr` Transformer model. Dockerized for easy deployment.
 
-![Demo](assets/demo.png)
-
 ## Features
 - 🚀 **FastAPI**: High-performance, easy-to-use web framework.
 - 🐳 **Dockerized**: specific `Dockerfile` and `docker-compose` setup for containerization.
